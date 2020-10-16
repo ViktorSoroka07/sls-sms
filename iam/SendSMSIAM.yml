@@ -1,0 +1,5 @@
+SendSMSIAM:
+  Effect: Allow
+  Action:
+    - sns:Publish
+  Resource: "*"
